@@ -35,6 +35,11 @@ main{
    padding: 20px 0;
    letter-spacing: 10px;
  }
+.banner{
+ display:flex;
+ justify-content:space-between;
+ align-items:center;
+}
 
  .first {
    width: 270px;
