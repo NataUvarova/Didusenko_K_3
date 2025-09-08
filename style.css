@@ -36,23 +36,22 @@ main{
    letter-spacing: 10px;
  }
 
-
-.banner .first {
+ .first {
    width: 320px;
    height: 400px;
  }
 
-.banner .sec {
+.sec {
    width: 320px;
    height: 400px;
  }
 
- .banner .tr {
+ .tr {
    width: 320px;
    height: 400px;
  }
 
- .banner .f {
+.f {
    width: 320px;
    height: 400px;
  }
@@ -69,7 +68,7 @@ main{
  .banner img {
    width: 320px;
    height: 400px;
-   object-fit: cover;
+/*    object-fit: cover; */
    border-radius: 5px;
  }
 
