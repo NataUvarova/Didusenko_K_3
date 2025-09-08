@@ -35,28 +35,24 @@ main{
    padding: 20px 0;
    letter-spacing: 10px;
  }
-.banner{
- display:flex;
- justify-content:space-between;
- align-items:center;
-}
 
- .first {
+
+.banner .first {
    width: 320px;
    height: 400px;
  }
 
- .sec {
+.banner .sec {
    width: 320px;
    height: 400px;
  }
 
- .tr {
+ .banner .tr {
    width: 320px;
    height: 400px;
  }
 
- .f {
+ .banner .f {
    width: 320px;
    height: 400px;
  }
@@ -64,15 +60,15 @@ main{
  /* Банер */
  .banner {
    display: flex;
-   justify-content: center;
-   gap: 10px;
+      gap: 10px;
    padding: 10px;
    flex-wrap: wrap;
+  justify-content:space-between;
  }
 
  .banner img {
-   width: 200px;
-   height: auto;
+   width: 320px;
+   height: 400px;
    object-fit: cover;
    border-radius: 5px;
  }
